@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: recoleta;
+}
+
+@font-face {
+    font-family: recoleta;
+    src: url(fonts/recoleta.otf);
+}
+ /* top  */
+ .navbar{
+   background-color: #182330;
+   padding-top: 0 !important;
+   padding-bottom: 0 !important;
+ 
+ }
+ .nav-brand{
+     height: 100px;
+     width: 100px;
+ }
+.nav-link{
+    color: #fff !important;
+    font-family: recoleta;
+    margin: 0 10px;
+    
+}
+.nav-link:hover{
+    color: #34f00e !important;
+    border-bottom: 1px solid #34f00e;
+    transition: border-bottom 700ms ease-in-out 120ms;
+
+}
+.nav-icon{
+    color: #fff;
+}
+ .row{
+     margin-left: 0 !important;
+     margin-right: 0 !important;
+ }
+ .wrapper-top{
+     width: 100%;
+     height: 450px;
+     background: #182330;
+ }
+ .top-head{
+    text-align: center;
+    padding-top: 8%;
+    color: #34f00e;
+    font-family: recoleta;
+ }
+
+ .top-head h2{
+     font-size: 4rem;
+ }
+ .top-head p{
+     font-size: 2rem;;
+ }
+.head-t{
+    font-size: 1.4rem !important;
+}
+
+/* aboutus */
+#about-us{
+    text-align: center;
+    color: #182330 ;
+    font-family: recoleta;
+    padding-top: 40px;
+    background-color: #34f00e;
+    padding-bottom: 30px;
+}
+.about-head{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-context{
+    width: 550px;
+    font-size: 1.4rem;
+    line-height: 2;
+    font-weight: bold;
+}
+.about-btn{
+    text-decoration: none;
+    padding: 10px;
+    border: 1.4px solid #182330;
+    color: #182330;
+    border-radius: 3%;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+.about-btn:hover{
+    background-color: #182330;
+    color: #34f00e;
+}
+
+/* collection */
+.collect-head{
+    text-align: center;
+    font-family: recoleta;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#pricing {
+    padding: 0 100px;
+  }
+  
+  .price-text {
+    line-height: 1.5;
+    font-size: 1.8rem;
+}
+   
+  
+  .price-con {
+    padding: 3% 2%;
+    color: #182330;
+  }
+  .card-img-top{
+      width: 200px;
+      height: 300px;
+  }
+  .card-body{
+      color: #182330;
+      font-weight: bold;
+      font-family: recoleta;
+
+  }
+  .card-bo{
+      box-shadow: 0 5px 20px rgba(0, 0, 0, .25) !important;
+      transition: transform 200ms !important;
+  }
+  .card-bo:hover{
+      transform: scale(1.1) !important;
+      box-shadow: 0 15px 80px rgba(0, 0, 0, .25) !important;
+      border: 1px solid #182330 !important;
+  }
+
+ /* location  */
+ .frame-wrapper{
+     width: 100%;
+     height: 400px;
+     border: 1px solid #182330;
+
+ }
+ /* contact us  */
+ #contact-us{
+     width: 100%;
+     height: 300px;
+    background-color: #182330;
+}
+.icon-wrapper{
+ text-align: center;
+ padding-top:37px; ;
+}
+
+.icon{
+    color:#fff;
+    padding: 0 40px;
+    
+}
+.copyright{
+    color: #34f00e;
+    text-align: center;
+    padding-top: 50px;
+    font-size: .8rem;
+}
+@media (max-width:990px) {
+
+    .card-bo{
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .25) !important;
+        transition: transform 200ms !important;
+    }
+    .card-bo:hover{
+        transform: none !important  ;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .25) !important;
+        border: 1px solid #182330 !important;
+    } 
+
+}
